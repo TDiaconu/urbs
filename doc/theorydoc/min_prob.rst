@@ -302,7 +302,7 @@ where :math:`\underline{P}_{p}` is the normalized, minimal operational state of
 the process and :math:`\overline{PG}_p` the normalized, maximal gradient of the
 operational state in full capacity per timestep.
 
-Intermittend supply rule
+Intermittent supply rule
 ~~~~~~~~~~~~~~~~~~~~~~~~
 If the input commodity is of type 'SupIm', which means that it represents an
 operational state rather than a proper material flow, the operational state of
