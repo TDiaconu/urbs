@@ -43,10 +43,10 @@ def add_buy_sell_price(m):
         rule=res_buy_total_rule,
         doc='total buy commodity output <= commodity.max')
 
-    m.res_sell_buy_symmetry = pyomo.Constraint(
-        m.pro_input_tuples,
-        rule=res_sell_buy_symmetry_rule,
-        doc='power connection capacity must be symmetric in both directions')
+    #m.res_sell_buy_symmetry = pyomo.Constraint(
+     #   m.pro_input_tuples,
+      #  rule=res_sell_buy_symmetry_rule,
+       # doc='power connection capacity must be symmetric in both directions')
 
     return m
 
